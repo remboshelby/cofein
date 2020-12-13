@@ -11,7 +11,7 @@ dependencies:
   serdes_json:
     path: serdes_json
   forms:
-      path: forms
+    path: forms
 
   flutter:
     sdk: flutter
@@ -53,6 +53,8 @@ dependencies:
   yandex_mapkit: ^0.4.1
   sliding_sheet: ^0.2.4
   sliding_up_panel: ^1.0.0
+  flutter_rating_bar: ^3.2.0+1
+  cached_network_image: ^2.3.1
 
 
   # Storages
@@ -72,6 +74,10 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-   uses-material-design: true
+  uses-material-design: true
+
+  assets:
+    - images/
+    -
 flutter_intl:
   enabled: true
